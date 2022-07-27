@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ui.signout.signoutFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="367dp"
+        android:layout_height="712dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp">
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/img1"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <TextView
+            android:id="@+id/textview14"
+            android:layout_width="136dp"
+            android:layout_height="177dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:text=" Already \n have an\n Account?"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="509dp" />
+
+        <EditText
+            android:id="@+id/editTextemail"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textAlignment="viewStart" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputemail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="350dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textAlignment="viewStart" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputpswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"/>
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="220dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:backgroundTint="#27B7CA"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="#FFFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            android:layout_marginTop="450dp"/>
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="550dp"
+            android:layout_weight="1"
+            android:text="New user ? Register Now"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
